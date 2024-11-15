@@ -25,8 +25,11 @@ func main() {
 	// fmt.Println(datas)	//array
 	// fmt.Println("%#v\n", datas)	//array literal
 
-	for i := 0; i < len(datas); i++ {
-		fmt.Printf("")
-	}
+	// for i := 0; i < len(datas); i++ {
+	// 	fmt.Println(i, datas[i])
+	// }
 
+	for i, v := range datas {
+		fmt.Println(i, v)
+	}
 }
