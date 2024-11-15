@@ -1,1 +1,0 @@
-This repository is a practice repository for practicing Linux commands, etc. in the 2024 open source programming class.
